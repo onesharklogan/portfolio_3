@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+main {
+    font-size: 20px;
+    color: #505050;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.img-rounded {
+    border-radius: 15px;
+    size: 35%;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Nanum Pen Script", cursive;
+}
+
+/* Mobile Styles */
+.wrapper {
+    width: 100%;
+}
+
+.wrapper h2 {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2;
+    margin: 10px;
+}
+
+/* Desktop Styles */
+@media all and (min-width: 800px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    .group {
+        flex-direction: row;
+    }
+}
+
+/* Sections */
+#intro,
+#home,
+#projects {
+}
+
+#about,
+#contact {
+    background-color: #dbdbdb;
+    padding: 10px 10px 0px 0;
+    margin: 20px 0;
+}
